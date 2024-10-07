@@ -7,7 +7,7 @@ import google.generativeai as genai
 import os
 import pdfplumber
 
-genai.configure(api_key="AIzaSyCz--z1p1aPPYowM6QXvPRRQk7ZBnaMmmo")
+genai.configure(api_key="your-api-key")
 
 #model = genai.GenerativeModel("gemini-1.5-flash")
 #response = model.generate_content("Write a very short story about a crypto")
